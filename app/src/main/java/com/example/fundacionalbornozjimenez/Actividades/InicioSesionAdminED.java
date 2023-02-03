@@ -43,8 +43,12 @@ public class InicioSesionAdminED extends AppCompatActivity {
                 String p=cont.getText().toString().trim();
 
                 if (!u.isEmpty() && !p.isEmpty()){
-                    validacionUsuario(u,p);
-
+                    //validacionUsuario(u,p);
+                    int value=1;
+                    Intent intent = new Intent(getApplicationContext(), PaginaPrincipal.class);
+                    intent.putExtra("key",value);
+                    startActivity(intent);
+                    finish();
 
                 }else if(u.isEmpty() && !p.isEmpty()){
                     user.setError("Ingresa tu correo");

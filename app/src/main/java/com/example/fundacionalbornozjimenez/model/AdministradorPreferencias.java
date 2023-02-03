@@ -18,7 +18,7 @@ public class AdministradorPreferencias {
     }
 
 
-    public void guardarSoloCorreo(String pss){
+    public void guardarSoloCorreo(String password){
 
         String encriptar=null;
         try{
@@ -41,7 +41,7 @@ public class AdministradorPreferencias {
             e.printStackTrace();
         }
 
-        sharedPreferences.edit().putString("pss",pss).apply();
+        sharedPreferences.edit().putString("pss",password).apply();
 
     }
 
