@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.SolicitudDAdopciones">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/lSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    style="@style/textViewTitleStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:text="Solicitud de adopción de mascota"/>
+
+            </LinearLayout>
+
+
+                <TextView
+                    android:gravity="center"
+                    style="@style/textViewStyle"
+                    android:id="@+id/instrucciones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ingresa los campos obligatorios marcados con asterisco (*)"/>
+
+                <EditText
+                    android:id="@+id/cCorreo"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/instrucciones"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="*Correo"
+                    android:inputType="textEmailAddress" />
+
+
+                <EditText
+                    android:id="@+id/cNombres"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_below="@id/cCorreo"
+                    android:hint="*Nombre"
+                    android:inputType="textPersonName" />
+
+
+                <EditText
+                    android:id="@+id/cApellidos"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_below="@id/cNombres"
+                    android:hint="*Apellidos"
+                    android:inputType="text" />
+
+
+            <TextView
+                android:id="@+id/tSexo"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cApellidos"
+                android:layout_centerHorizontal="true"
+                android:text="*Selecciona tu sexo" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tSexo"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="3dp"
+                    android:checkedButton="@id/hombre">
+
+                    <RadioButton
+                        android:id="@+id/hombre"
+                        android:button="@color/transparent"
+                        android:background="@drawable/radiob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:padding="4dp"
+                        android:text="Masculino"
+                        android:textSize="12dp"/>
+
+                    <RadioButton
+                        android:id="@+id/mujer"
+                        android:button="@color/transparent"
+                        android:background="@drawable/radiob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:buttonTint="@color/black"
+                        android:padding="5dp"
+                        android:text="Femenino"
+                        android:textSize="12dp"/>
+
+
+                    <RadioButton
+                        android:id="@+id/otro"
+                        android:button="@color/transparent"
+                        android:background="@drawable/radiob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:buttonTint="@color/black"
+                        android:padding="4dp"
+                        android:text="Otro"
+                        android:textSize="12dp"/>
+
+                </RadioGroup>
+
+
+                <EditText
+                    android:id="@+id/cEdad"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_below="@id/radioGroup"
+                    android:hint="*Edad"
+                    android:inputType="number" />
+
+
+
+                <EditText
+                    android:id="@+id/cTelefono"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_below="@id/cEdad"
+                    android:hint="Telefono"
+                    android:inputType="phone" />
+
+
+            <EditText
+                android:id="@+id/cOcupacion"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cTelefono"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="*Ocupación"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/cMascotas"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/instrucciones2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Número de mascotas en tu hogar"
+                android:inputType="number" />
+
+
+            <TextView
+                android:id="@+id/tVivienda"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cMascotas"
+                android:layout_centerHorizontal="true"
+                android:text="*Selecciona tu tipo de Vivienda" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tVivienda"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:checkedButton="@id/casa">
+
+                <RadioButton
+                    android:id="@+id/casa"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radiob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:buttonTint="@color/black"
+                    android:text="Casa"
+                    android:padding="5dp"
+                    android:textSize="12dp"/>
+
+                <RadioButton
+                    android:id="@+id/departamento"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radiob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:buttonTint="@color/black"
+                    android:text="Departamento"
+                    android:padding="5dp"
+                    android:textSize="12dp"/>
+
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/cCalle"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/radioGroup"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="*Calle"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/cNumero"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cCalle"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Número de casa"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/cColonia"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cNumero"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Colonia"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/cDel_Mun"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cColonia"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="*Delegación o Municipio"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/cCiu_Loc"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cDel_Mun"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="*Ciudad o localidad"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/cEstado"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cCiu_Loc"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Estado (omitir en caso de vivir en la CDMX)"
+                android:inputType="text" />
+
+
+            <Button
+                android:id="@+id/buttonSolicitud2"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cEstado"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Enviar solicitud" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

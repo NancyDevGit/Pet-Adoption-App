@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.FormularioPub2">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tEsterilizacionM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="*¿Está esterilizada la mascota?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupEM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tEsterilizacionM"
+                android:layout_marginTop="3dp"
+                android:checkedButton="@id/hombre"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <RadioButton
+                    android:id="@+id/SiEM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:padding="4dp"
+                    android:text="Sí"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/NoEM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="No"
+                    android:textSize="12dp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tVacunacionM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupEM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="*¿Está vacunada la mascota?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupVM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tVacunacionM"
+                android:layout_marginTop="3dp"
+                android:checkedButton="@id/hombre"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <RadioButton
+                    android:id="@+id/SiV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:padding="4dp"
+                    android:text="Sí"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/NoV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="No"
+                    android:textSize="12dp" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/tDesparacitadoM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupVM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="*¿Está desparacitada la mascota" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupDM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tDesparacitadoM"
+                android:layout_marginTop="3dp"
+                android:checkedButton="@id/hombre"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <RadioButton
+                    android:id="@+id/SiD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:padding="4dp"
+                    android:text="Sí"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/NoD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="No"
+                    android:textSize="12dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tAmigableK"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupDM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="*¿Es amigable con niños?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupAK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tAmigableK"
+                android:layout_marginTop="3dp"
+                android:checkedButton="@id/hombre"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <RadioButton
+                    android:id="@+id/SiAK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:padding="4dp"
+                    android:text="Sí"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/NoAK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="No"
+                    android:textSize="12dp" />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tAmigableM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupAK"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:text="*¿Es amigable con otras mascotas?" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupAM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tAmigableM"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="12dp"
+                android:checkedButton="@id/hombre"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp">
+
+                <RadioButton
+                    android:id="@+id/SiE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:padding="4dp"
+                    android:text="Sí"
+                    android:textSize="12dp" />
+
+                <RadioButton
+                    android:id="@+id/NoM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/radiob"
+                    android:button="@color/transparent"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="No"
+                    android:textSize="12dp" />
+
+
+            </RadioGroup>
+
+
+            <EditText
+                android:id="@+id/cEnfermedadesM"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupAM"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Escribe si cuenta con alguna enfermedad"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/cExtraM"
+                style="@style/editTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cEnfermedadesM"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Añade algún detalle extra importante"
+                android:inputType="text" />
+
+
+
+
+            <Button
+                android:id="@+id/buttonImagen"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cExtraM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="*Seleccionar foto" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lImagenSubida"
+                android:gravity="center">
+                <ImageView
+                  android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imagenSubida"
+
+                    />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/buttonEnviarDatos"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cExtraM"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Registrar mascota" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

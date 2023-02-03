@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerTipoAT"
+    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/input_texto"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:lines="1"
+    android:textColor="@color/albornoz2"
+    android:textSize="12dp"
+    android:textStyle="normal" />

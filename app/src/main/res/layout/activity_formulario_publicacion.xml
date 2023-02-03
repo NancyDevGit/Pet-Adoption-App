@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.FormularioPublicacion">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textViewTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:text="Publicación de mascota en adopción"/>
+
+
+            <TextView
+                android:id="@+id/instruccionesPublicacion"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ingresa los campos obligatorios marcados con asterisco (*)" />
+
+
+            <LinearLayout
+                android:id="@+id/lNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/instruccionesPublicacion">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/tNombreFPM"
+                    style="@style/textViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerTipoA"
+                    android:gravity="center"
+                    android:text="*Nombres"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/cNombreM"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/instruccionesPublicacion"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="*Nombres"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/instruccionestm"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lNombre"
+                android:gravity="center"
+                android:text="Elige el tipo de mascota"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/spinnerTipoA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lNombre"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/albornoz2" />
+
+            <TextView
+                android:id="@+id/instruccionesRR"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerTipoA"
+                android:gravity="center"
+                android:text="Elige si es refugio o rescatista"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/spinnerRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/instruccionesRR"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/albornoz2" />
+
+
+            <TextView
+                android:id="@+id/instruccionesSeleccionR"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerRR"
+                android:gravity="center"
+                android:text="Elige el refugio o rescatista"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:backgroundTint="@color/albornoz2"
+                android:id="@+id/spinnerNombresRR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/instruccionesSeleccionR"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dp"
+                style="@style/textViewStyle"
+                android:id="@+id/Nuevo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O registrar nuevo refugio"
+                android:textColor="@color/albornoz3"
+                android:textStyle="italic"
+                android:layout_below="@+id/spinnerNombresRR"/>
+
+
+            <LinearLayout
+                android:id="@+id/lCiudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/Nuevo">
+
+                <TextView
+                    android:id="@+id/tCiudadFPM"
+                    style="@style/textViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerTipoA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="*Ciudad"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/cCiudadM"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Nuevo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="*Ciudad"
+                    android:inputType="text" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lEstado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/lCiudad">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/tEstadoFPM"
+                    style="@style/textViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerTipoA"
+                    android:gravity="center"
+                    android:text="Estado"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/cEstadoM"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cCiudadM"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Estado (Si la ciudad es CDMX, dejar en Blanco)"
+                    android:inputType="text" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/lEstado">
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/tEdadFPM"
+                    style="@style/textViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerTipoA"
+                    android:gravity="center"
+                    android:text="*Edad"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/cEdadM"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cEstadoM"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="*Edad"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lRaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/lEdad">
+
+                <TextView
+                    android:id="@+id/tRazaFPM"
+                    style="@style/textViewStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spinnerTipoA"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Raza o tipo"
+                    android:textSize="12dp" />
+
+                <EditText
+                    android:id="@+id/cRazaM"
+                    style="@style/editTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cEdadM"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Raza o tipo de raza"
+                    android:inputType="text" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/instruccionesSM"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lRaza"
+                android:gravity="center"
+                android:text="Elige el tamaño de la mascota"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/spinnerSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lRaza"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/albornoz2" />
+
+            <TextView
+                android:id="@+id/tSexoM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerSize"
+                android:layout_centerHorizontal="true"
+                android:text="Selecciona el sexo de la mascota" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tSexoM"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:checkedButton="@id/hombre">
+
+                <RadioButton
+                    android:id="@+id/hmacho"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radiob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="4dp"
+                    android:text="Macho"
+                    android:textSize="12dp"/>
+
+                <RadioButton
+                    android:id="@+id/hembra"
+                    android:button="@color/transparent"
+                    android:background="@drawable/radiob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:buttonTint="@color/black"
+                    android:padding="5dp"
+                    android:text="Hembra"
+                    android:textSize="12dp"/>
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/instruccionesPM"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupM"
+                android:gravity="center"
+                android:text="Elige la personalidad de la mascota"
+                android:textSize="10dp" />
+
+            <Spinner
+                android:id="@+id/spinnerPersonalidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/radioGroupM"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/albornoz2" />
+
+
+            <TextView
+                android:id="@+id/tSiguienteF"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinnerPersonalidad"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="18dp"
+                android:layout_gravity="right"
+                android:padding="4dp"
+                android:text="Siguiente"
+                android:textColor="@color/albornoz3"
+                android:textStyle="italic"
+                android:layout_marginBottom="15dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

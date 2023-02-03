@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:titleTextColor="@android:color/white"
+    android:background="@color/fondo"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp">
+
+    <LinearLayout
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgAlbornoz"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:src="@drawable/rcono" />
+
+        <TextView
+            android:id="@+id/textoEncabezado"
+            style="@style/textViewTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADOPTA UN ALBORNOZ"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/textoAdmin"
+            style="@style/textViewStyle"
+            android:layout_width="50dp"
+            android:layout_height="18dp"
+            android:text="Admin"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:id="@+id/imgSalir"
+            android:layout_width="39dp"
+            android:layout_height="34dp"
+            android:src="@drawable/exit"
+            app:tint="@color/black" />
+
+
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.Toolbar>
+

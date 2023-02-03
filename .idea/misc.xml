@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/boton.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/boton_disabled.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/boton_enabledn.xml" value="0.1715" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/boton_focusedn.xml" value="0.1715" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/boton_navegacion.xml" value="0.178" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/button_disabled.xml" value="0.1235" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/button_enabled.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/button_focused.xml" value="0.1235" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/button_pressed.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/exit.xml" value="0.185" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/home.xml" value="0.1575" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.1535" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1535" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1005" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/input_texto.xml" value="0.17" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/ps.xml" value="0.193" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/publicacion_background.xml" value="0.1955" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/publicacion_dialog.xml" value="0.1605" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/radiob.xml" value="0.143" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/radiobutton.xml" value="0.143" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/radiobuttons.xml" value="0.143" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/spinner_array.xml" value="0.1595" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/spinner_personalizado.xml" value="0.1895" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/drawable/ubicacion.xml" value="0.2005" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/font/roboto.xml" value="0.17578125" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/acerca_fundacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_cuenta.xml" value="0.20416666666666666" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_dialog_solicitud_recibida.xml" value="0.14140625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_exito.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_formulario_pub2.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_formulario_publicacion.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_inicio_sesion_admin.xml" value="0.20416666666666666" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_main2.xml" value="0.1265625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_pagina_publicaciones.xml" value="0.14" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_prueba.xml" value="0.17447916666666666" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_prueba2.xml" value="0.18" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_publicacion_sol2.xml" value="0.14140625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_publicacion_solicitud.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_registro_admin.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_registro_refugio.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_solicitud2.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_solicitud_adopcion.xml" value="0.2" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/activity_solicitud_dadopciones.xml" value="0.30434782608695654" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/cargando.xml" value="0.1486111111111111" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/cargando_inicio.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/content_main.xml" value="0.15135135135135136" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/dialog_publicacion.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/dialog_solicitud_recibida.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/exto.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_adopciones.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_cuenta_usuario.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_first.xml" value="0.153125" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_fragmento_menu_u.xml" value="0.14140625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_fundacion.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_menu_u.xml" value="0.14140625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_prueba.xml" value="0.137109375" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_publicaciones_admin.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_publicaciones_con_solicitudes.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/fragment_solicitudes_recibidas.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/inicio_dialogo.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/inicio_sesion_admin.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/item_list.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/menu_navegacion.xml" value="0.279045643153527" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/pagina_principal.xml" value="0.18" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/principal_visitante.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/pruebas.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/publicacio_sol.xml" value="0.22" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/publicacion.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/publicacion_small.xml" value="0.23758099352051837" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/publicacion_sol.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/recuperar_a.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/recuperar_admin.xml" value="0.9" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/registro_admin.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/solicitud.xml" value="0.12708333333333333" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/solicitud_detalles.xml" value="0.33" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/spinner.xml" value="0.153125" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/spinner_dropdown.xml" value="0.1" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/spinner_text.xml" value="0.18" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/layout/toolbar_personalizada.xml" value="0.25" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/menu/menu_navegacion.xml" value="0.14140625" />
+        <entry key="..\:/nangd/Documents/MegaS/Android/FundacionAlbornozJimenez/app/src/main/res/menu/meu.xml" value="0.14140625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/publicacion_background">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_margin="12dp"
+            android:id="@+id/fotoMascota"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/rcono"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <TextView
+                style="@style/textViewMascotaStyle"
+                android:id="@+id/tNombreM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Snoopy" />
+
+            <ImageView
+                android:id="@+id/mSex"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="12dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/macho" />
+
+
+            <ImageView
+                android:id="@+id/mUbicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                app:tint="@color/black"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ubicacion" />
+
+
+            <TextView
+                android:id="@+id/tUbicacionM"
+                style="@style/textViewMascotaStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CDMX" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tEdadM"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad: " />
+
+            <TextView
+                android:id="@+id/tEdadMD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12 años" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tSize"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tamaño: " />
+
+            <TextView
+                android:id="@+id/tSizeD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pequeño" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tPersonalidad"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personalidad: " />
+
+            <TextView
+                android:id="@+id/tPersonalidadD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tranquilo" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tCiudad"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciudad: " />
+
+            <TextView
+                android:id="@+id/tCiudadD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CDMX" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tSexo"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexo: " />
+
+            <TextView
+                android:id="@+id/tSexoD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Macho" />
+
+        </LinearLayout>
+
+
+
+<!--Campos no obligatorios-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tEstado"
+                style="@style/textViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado: " />
+
+            <TextView
+                android:id="@+id/tEstadoD"
+                style="@style/textViewStyleDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sin estado" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tRaza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Raza: "
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/tRazaD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Labrador"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:id="@+id/tEsterilizacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Esterilizado: "
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/tEsterilizacionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sí"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tVacunacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Vacunado: "
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/tVacunacionD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tDeparacitado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Desparacitado: "
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/tDesparacitadoD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tEnfermedades"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Enfermedades: "
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:id="@+id/tEnfermedadesD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+
+
+
+            <TextView
+                android:id="@+id/tAmigableSN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Snoopy es amigable"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp">
+            <TextView
+                android:id="@+id/tExtra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:text="Extra"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/botonesP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="right">
+
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bModificar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Modificar" />
+
+            <Button
+                style="@style/button"
+                android:id="@+id/bSolicitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Enviar solicitud de Adopciónr" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

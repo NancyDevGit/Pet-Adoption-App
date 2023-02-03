@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Fundacion">
+
+    <TextView
+        android:id="@+id/tFundacion"
+        style="@style/textViewTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fundacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tFundacion">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/tFundacion">
+
+            <TextView
+                android:id="@+id/txtFundacion"
+                android:textSize="16dp"
+                style="@style/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:text="La Fundación Albornoz Jiménez en su labor para ayudar a perros y gatos tiene como principal misión ofrecer servicios de veterinaria gratuitos o accesibles para los dueños que no pueden pagar las grandes cantidades de dinero en hospitales veterinarios.
+        \n\nLa Fundación también busca promover la adopción de perros y gatos a la par de concientizar a la población sobre las consecuencias de la compra de mascotas, principalmente perros de raza" />
+
+
+            <ImageView
+                android:id="@+id/fotoFundación"
+                android:layout_margin="10dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/fundacion1" />
+
+            <TextView
+                android:id="@+id/txtFundacion2"
+                style="@style/textViewStyle"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Junto con nuestros voluntarios realizamos actividades mediante las cuales podamos ayudar y concientizar sobre la adopción y el cuidado de las mascotas de companía, quienes merecen un trato digno y responsable" />
+
+            <ImageView
+                android:id="@+id/fotoEventoFundación"
+                android:layout_margin="10dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/evento" />
+
+
+            <TextView
+                android:id="@+id/txtFundacion3"
+                style="@style/textViewStyle"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Siguenos en nuestro facebook para mantenerte al tanto de nuestras actividades" />
+
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/fFace"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/facebook" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

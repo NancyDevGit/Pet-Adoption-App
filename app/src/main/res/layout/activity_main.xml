@@ -1,0 +1,35 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividades.MainActivity"
+    android:background="@color/fondo">
+
+
+
+    <ImageView
+        android:id="@+id/imgAlbornoz"
+        android:layout_width="232dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/rcono"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textViewTitleStyle"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="CARGANDO"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="727dp"
+        android:layout_below="@id/imgAlbornoz"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+</RelativeLayout>
+
