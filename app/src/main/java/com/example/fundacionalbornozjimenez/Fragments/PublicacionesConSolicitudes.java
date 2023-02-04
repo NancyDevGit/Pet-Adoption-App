@@ -106,7 +106,7 @@ public class PublicacionesConSolicitudes extends Fragment implements RecyclerVie
 
         private void llenarPublicaciones(RecyclerViewInterface recyclerViewInterface) {
 
-            String URL="https://fundacionalbornoz.com/publicaciones.php";
+            String URL="https://paginaprueba.com/publicaciones.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override

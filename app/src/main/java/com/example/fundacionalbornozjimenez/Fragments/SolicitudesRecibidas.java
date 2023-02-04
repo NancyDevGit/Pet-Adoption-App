@@ -118,7 +118,7 @@ public class SolicitudesRecibidas extends Fragment implements RecyclerViewInterf
 
     private void llenarSolicitudes(RecyclerViewInterface recyclerViewInterface) {
 
-        String URL="https://fundacionalbornoz.com/solicitudesRecibidas.php";
+        String URL="https://paginaprueba.com/solicitudesRecibidas.php";
 
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
             @Override
@@ -373,7 +373,7 @@ public class SolicitudesRecibidas extends Fragment implements RecyclerViewInterf
 
     private void estadoSolicitud(int position,String idSol) {
 
-            String URL="https://fundacionalbornoz.com/solicitudesRecibidas.php";
+            String URL="https://paginaprueba.com/solicitudesRecibidas.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override

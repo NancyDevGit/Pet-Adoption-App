@@ -110,7 +110,7 @@ public class Adopciones extends Fragment implements RecyclerViewInterface, Swipe
 
     private void llenarPublicacion(RecyclerViewInterface recyclerViewInterface) {
 
-        String URL="https://fundacionalbornoz.com/publicaciones.php";
+        String URL="https://paginaprueba.com/posts.php";
 
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
             @Override
@@ -275,7 +275,7 @@ public class Adopciones extends Fragment implements RecyclerViewInterface, Swipe
         fotoMascota=(ImageView) v.findViewById(R.id.fotoMascota);
 
 
-        String URL="https://fundacionalbornoz.com/publicaciones.php";
+        String URL="https://paginaprueba.com/posts.php";
 
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
             @Override

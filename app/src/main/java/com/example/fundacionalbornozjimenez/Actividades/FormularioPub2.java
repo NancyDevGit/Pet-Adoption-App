@@ -285,7 +285,7 @@ public class FormularioPub2 extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),"Imagen vacia",Toast.LENGTH_SHORT).show();
         }
 
-        String url="https://fundacionalbornoz.com/RegistrarMascota.php";
+        String url="https://paginaprueba.com/RegistrarPet.php";
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
 
             @Override
