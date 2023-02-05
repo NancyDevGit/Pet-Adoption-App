@@ -160,7 +160,7 @@ public class SolicitudDAdopciones extends AppCompatActivity {
     }
 
     private void enviarDatos() {
-        String url="https://fundacionalbornoz.com/solicitudAdopcionED.php";
+        String url="https://paginaprueba.com/solicitudAdopcionED.php";
 
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
 

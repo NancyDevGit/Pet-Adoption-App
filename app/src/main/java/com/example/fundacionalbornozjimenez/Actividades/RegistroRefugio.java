@@ -170,7 +170,7 @@ public class RegistroRefugio extends AppCompatActivity implements AdapterView.On
 
     private void enviarDatos(){
 
-        String url="https://fundacionalbornoz.com/registroRefugio.php";
+        String url="https://paginaprueba.com/registroRefugio.php";
         StringRequest stringRequest=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
 
             @Override

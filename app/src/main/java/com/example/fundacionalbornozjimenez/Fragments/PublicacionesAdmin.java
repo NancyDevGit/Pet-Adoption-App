@@ -135,7 +135,7 @@ public class PublicacionesAdmin extends Fragment implements RecyclerViewInterfac
         }
 
         private void llenarPublicacion(RecyclerViewInterface recyclerViewInterface) {
-            String URL="https://fundacionalbornoz.com/publicaciones.php";
+            String URL="https://paginaprueba.com/publicaciones.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override
@@ -311,7 +311,7 @@ public class PublicacionesAdmin extends Fragment implements RecyclerViewInterfac
         }
 
         private void eliminarPublicacion2(int position) {
-            String URL="https://fundacionalbornoz.com/eliminarRegistroF.php";
+            String URL="https://paginaprueba.com/eliminarRegistroF.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override
@@ -345,7 +345,7 @@ public class PublicacionesAdmin extends Fragment implements RecyclerViewInterfac
 
         private void eliminarPublicacion(int position) {
 
-            String URL="https://fundacionalbornoz.com/eliminarRegistroF.php";
+        String URL="https://paginaprueba.com/eliminarRegistroF.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override
@@ -416,7 +416,7 @@ public class PublicacionesAdmin extends Fragment implements RecyclerViewInterfac
 
 
 
-            String URL="https://fundacionalbornoz.com/publicaciones.php";
+            String URL="https://paginaprueba.com/publicaciones.php";
 
             StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
                 @Override

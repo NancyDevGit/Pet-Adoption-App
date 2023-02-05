@@ -68,7 +68,7 @@ public class ValidacionUsuario {
 
     private void intentarInicioIF(View view){
 
-        String URL="https://fundacionalbornoz.com/inicioSesionED.php";
+        String URL="https://paginaprueba.com/inicioSesionED.php";
         StringRequest stringRequest= new StringRequest(Request.Method.POST, URL, new Response.Listener <String>() {
             @Override
             public void onResponse(String response) {
@@ -135,7 +135,7 @@ public class ValidacionUsuario {
 
     private void intentarInicioMA(){
 
-        String URL="https://fundacionalbornoz.com/inicioSesionED.php";
+        String URL="https://paginaprueba.com/inicioSesionED.php";
         StringRequest stringRequest= new StringRequest(Request.Method.POST, URL, new Response.Listener <String>() {
             @Override
             public void onResponse(String response) {

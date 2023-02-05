@@ -297,10 +297,7 @@ public class FormularioPublicacion extends AppCompatActivity implements AdapterV
 
 
     private void recibirDatosRR(){
-        //Toast.makeText(getApplicationContext(), "recibiendo", Toast.LENGTH_SHORT).show();
-        //String url="http://192.168.1.9:8080/FundacionAlbonorzFinal/refugiosConsulta.php";
-        //String url="https://fundacionalbornozj.000webhostapp.com/BaseD/refugiosConsulta.php";
-        String url="https://fundacionalbornoz.com/refugiosConsulta.php";
+        String url="https://paginaprueba.com/refugiosConsulta.php";
         StringRequest stringRequest = new StringRequest(Request.Method.POST,url,
                 new Response.Listener<String>() {
                     @Override

@@ -1,5 +1,6 @@
 package com.example.fundacionalbornozjimenez.Actividades;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -36,7 +37,12 @@ public class MainActivity extends AppCompatActivity {
             }, 4000);
 
         }else{
-            validacionUsuario(usuario,pss);
+            int value=1;
+            Intent intent = new Intent(MainActivity.this, PaginaPrincipal.class);
+            intent.putExtra("key",value);
+            startActivity(intent);
+            finish();
+            //validacionUsuario(usuario,pss);
 
         }
 
