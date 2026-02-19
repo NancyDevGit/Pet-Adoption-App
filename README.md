@@ -13,3 +13,6 @@ Android Pet Adoption App where users can find rescued pets looking for a home an
 - Application form for publishing pet posts (admin interface)
 - Application form for adding rescuers of refugees (admin interface)
 - Section for accepting or rejecting adoption requests (admin interface)
+
+
+Hi!
